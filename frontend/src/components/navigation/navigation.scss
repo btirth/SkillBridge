@@ -1,0 +1,23 @@
+.app-nav-drawer-link {
+  padding: 10px 10px;
+  margin-left: 5px;
+  color: #071541;
+  font-weight: 500;
+  text-decoration: none;
+
+  &--active {
+    background: rgba(0, 0, 0, 0.2);
+    border-left: 5px solid #19747e;
+  }
+}
+
+.app-nav-link {
+  color: white;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  padding: 0px 10px;
+  &--active {
+    background: rgba(0, 0, 0, 0.2);
+  }
+}
